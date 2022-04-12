@@ -1,0 +1,41 @@
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 5% 15% 5% 15%;
+  background-color: rgb(252, 237, 215);
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10%;
+  row-gap:3vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.items {
+  text-align: center;
+  border: 2px dashed;
+  border-radius: 25px;
+}
+
+.pContain{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: inline-block;
+  font-size: 120%;
+  width: 70%;
+}
+
+.contentImage {
+  width: 60%;
+}
